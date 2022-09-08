@@ -16,7 +16,7 @@ TFCalculated=[]
 IDFCalculated=[]
 IDF =[]
 TF__IDF=[]
-MyDirectory =''
+MyDirectory =r'd:\SANAD\Culture\Trainingset\*.txt'
 # read files from directory either training set or testing set
 for path in sorted(glob.iglob(MyDirectory)):
     text_file = open(path, encoding='utf-8').read().replace('\n', ' ')
